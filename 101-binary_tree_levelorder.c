@@ -48,6 +48,7 @@ void free_queue(levelorder_queue_t *head)
  * pushes its children into a levelorder_queue_t queue.
  * @node: The binary tree node to print and push.
  * @head: A double pointer to the head of the queue.
+ * func - a function
  * @tail: A double pointer to the node.
  * Description: Upon malloc failure, exits with a status code of 1.
  */
